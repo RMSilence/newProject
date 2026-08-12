@@ -7,12 +7,26 @@
 body {
   background-color: rgb(39, 23, 184);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
 }
 
+.header-container {
+  position: flex;
+
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(19, 9, 110);
+  color: white;
+}
+
 .clock {
+  margin-top: 1rem;
   border-radius: 100%;
   background-color: white;
   font-family: "Montserrat", sans-serif;
